@@ -13,7 +13,7 @@ jobs:
     - name: Publish Docker SemVer Tag
       uses: elgohr/Publish-Docker-Github-Action@3.04
       with:
-        name: openflagr/flagr
+        name: nobidev/flagr
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
         registry: ghcr.io
